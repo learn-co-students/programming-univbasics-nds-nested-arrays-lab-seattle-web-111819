@@ -29,10 +29,6 @@ def array_literal_matrix
   # Using Array literal syntax only, build a nested array that uses the data in
   # side the ENNET_HOUSE and ENFIELD_TENNIS_ACADEMY Arrays but sorts
   # alphabetically by the first character.
-  residents = [
-      ["Don Gately", "Joelle van Dyne", "Pat M.", "Kate Gompert", "Bruce Green"], 
-      ["Hal Incandenza", "Lyle", "Gerhard Schtitt", "Mario Incandenza", "Michael Pemulis"]
-    ]
   residents.each do |r|
     r.sort!
   end
